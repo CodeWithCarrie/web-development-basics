@@ -3,16 +3,18 @@
     <h1>Web Development Basics</h1>
     <p><em>Beginner demos and exercises on building web apps with HTML, CSS, and 'vanilla' JavaScript</em></p>
     <a href="http://www.codewithcarrie.com"><img src="https://img.shields.io/badge/by-CodeWithCarrie.com-b03454?style=for-the-badge" alt="badge linking to CodeWithCarrie's website" /></a>
+    <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+    <img src="https://img.shields.io/badge/CSS-rebeccapurple?style=for-the-badge&logo=css&logoColor=white" alt="CSS" />
     <img src="https://img.shields.io/badge/JavaScript-F0DB4F?style=for-the-badge&logo=javascript&logoColor=333333" alt="JavaScript" />
-    <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=ffffff" alt="npm" />
-    <img src="https://img.shields.io/badge/jest-C21325?style=for-the-badge&logo=npm&logoColor=ffffff" alt="npm" />
-    <!-- TODO: Add badges for other tech -->
+    <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint" />
+    <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=333333" alt="Prettier" />
 </div>
 
 ---
 
 <div align="center">
-    <a href="https://github.com/CodeWithCarrie/modular-javascript/blob/main/README.md#setup">Setup</a> &bull;
+    <a href="https://github.com/CodeWithCarrie/web-development-basics/blob/main/README.md#setup">Setup</a> &bull;
+    <a href="https://github.com/CodeWithCarrie/web-development-basics/tree/main#1---html-basics">HTML Basics</a> &bull;
     <!-- TODO: Add links to sections below -->
 </div>
 
@@ -79,7 +81,7 @@ Use the command `git remote -v` to verify that you have linked to both `origin` 
 
 If you are unfamiliar with the basics of JavaScript, I recommend starting with my [JavaScript Fundamentals Series](https://github.com/CodeWithCarrie/javascript-fundamentals) and [Modular JavaScript Series](https://github.com/CodeWithCarrie/modular-javascript) before continuing with any tutorials below that involve JavaScript.
 
-Each topic will have a corresponding video on the [@CodeWithCarrie](https://youtube.com/@CodeWithCarrie) YouTube channel, with some code left for the learner to complete in-between videos. Use the links in the sections below for quick peeks at the starter code or solution in different branches. You can fork your own copy of this repository for practice on your local machine. While individual links are available below for each video, you can also start with the [full playlist](). <!-- FIXME -->
+Each topic will have a corresponding video on the [@CodeWithCarrie](https://youtube.com/@CodeWithCarrie) YouTube channel, with some code left for the learner to complete in-between videos. Use the links in the sections below for quick peeks at the starter code or solution in different branches. You can fork your own copy of this repository for practice on your local machine. While individual links are available below for each video, you can also start with the [full playlist](https://www.youtube.com/playlist?list=PLvcPeTeqi37QwaJI-_Zy83NjgwyQ8DuAx).
 
 > [!TIP]
 > I recommend working through the demos and exercises in the sequence shown below.
@@ -90,46 +92,43 @@ Go forth and learn!
 
 ### SETUP
 
-This collection of coding exercises focuses on JavaScript, Node and NPM modules, and Jest. While my JavaScript Fundamentals demos included Git commits, this collection and future collections will typically not cover that under the assumption that learners have developed the habit already.
-
-> [!NOTE]
-> Make sure you have npm and Node.js [installed](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) before continuing with any of the exercises below.
+This collection of coding exercises focuses on HTML, CSS, JavaScript, and JSON. It is recommended to use the Live Server extension in VS Code and also be prepared to use Postman to test HTTP requests and responses.
 
 ---
 
 ### 1 - HTML Basics
 
-_Coming soon!_ 
+Switch to the [01-html-basics-starter](https://github.com/CodeWithCarrie/web-development-basics/tree/01-html-basics-starter) branch or the [01-html-basics-solution](https://github.com/CodeWithCarrie/web-development-basics/tree/01-html-basics-solution) branch.
+
+| Topics                           | Videos                               |    Length |
+| -------------------------------- | ------------------------------------ | --------: |
+| Structuring a Page with HTML     | [Demo](https://youtu.be/rHiaNZtMwfI) |     10:14 |
+| Structuring Content with HTML    | [Demo](https://youtu.be/OIAeGlKc6ko) |      4:03 |
+| Organizing Information with HTML | [Demo](https://youtu.be/Dr4cVDCIvKQ) |      2:43 |
+| Adding Images & Links            | [Demo](https://youtu.be/m6z8H3sQSpE) |      4:41 |
+|                                  | **TOTAL**                            | **21:41** |
 
 ---
 
 ### 2 - HTML Forms
 
-_Coming soon!_ 
+_Coming soon!_
 
 ---
 
 ### 3 - CSS
 
-_Coming soon!_ 
+_Coming soon!_
 
 ---
 
 ### 4 - The DOM
 
-_Coming soon!_ 
+_Coming soon!_
 
 ---
 
-### 5 - JSON
-
-_Coming soon!_ 
-
----
-
-### 6 - HTTP Requests & Responses
-
-_Coming soon!_ 
+_...and more!_
 
 ---
 
