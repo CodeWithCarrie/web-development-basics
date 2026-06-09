@@ -1,0 +1,34 @@
+{
+	"name": "web-development-basics",
+	"version": "1.0.0",
+	"description": "Beginner demos and exercises on building web apps with HTML, CSS, and 'vanilla' JavaScript",
+	"keywords": [
+		"html",
+		"css",
+		"javascript",
+		"dom",
+		"http",
+		"json"
+	],
+	"homepage": "https://github.com/CodeWithCarrie/web-development-basics#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CodeWithCarrie/web-development-basics.git"
+	},
+	"license": "ISC",
+	"author": "CodeWithCarrie.com (Caroline R. Jones)",
+	"type": "module",
+	"scripts": {
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"format": "prettier . --write",
+		"format:check": "prettier . --check"
+	},
+	"devDependencies": {
+		"@eslint/js": "^10.0.1",
+		"eslint": "^10.2.0",
+		"eslint-config-prettier": "^10.1.8",
+		"globals": "^17.5.0",
+		"prettier": "^3.8.2"
+	}
+}
