@@ -1,0 +1,205 @@
+/* ======================================================= */
+/* GLOBAL                                                  */
+/* ======================================================= */
+
+/*
+    Universal Selector Reset: Standardizes layout math
+*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* 
+    Element Selectors 
+*/
+body {
+	background-color: #1a1a24;
+	color: #e2e8f0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+	background-color: #2d2d3d;
+	padding: 15px;
+	border-bottom: 3px solid #4da6ff;
+	margin-bottom: 20px;
+}
+
+/*
+    2D Grid parent container
+*/
+main {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 20px;
+	padding: 0 20px;
+}
+
+/*
+    Flex container for easy centering
+*/
+footer {
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+}
+
+/* 
+    Element Selector 
+*/
+h2 {
+	color: #4da6ff;
+}
+
+/* 
+    Global Spacing: Restores margins and indents lists 
+*/
+p,
+h2,
+h3,
+h4,
+img {
+	margin-bottom: 1em;
+}
+
+ul {
+	margin-bottom: 1em;
+	padding-left: 40px;
+}
+
+/* 
+    Class Selector Practice
+*/
+.highlight-list {
+	background-color: rgba(255, 255, 255, 0.05);
+	padding: 15px 20px 5px;
+	border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+/* ======================================================= */
+/* HERO DASHBOARD                                          */
+/* ======================================================= */
+
+/* 
+    ID Selector 
+*/
+#hero-dashboard {
+	background-color: #242433;
+	padding: 20px;
+	border: 2px solid #4a5568;
+}
+
+/* 
+    Flexbox Alignment Bar
+*/
+.status-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 10px 15px;
+	margin-bottom: 1em;
+	border-left: 4px solid #4da6ff;
+}
+
+/* 
+    Adjusting internal margins to prevent Flexbox layout clipping 
+*/
+.status-bar h3 {
+	margin-bottom: 0;
+}
+
+/*
+    Base link
+*/
+#hero-dashboard a {
+	color: #4da6ff;
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+/*
+    Dynamic link hover
+*/
+#hero-dashboard a:hover {
+	color: #99ccff;
+	text-decoration: underline;
+}
+
+/* ======================================================= */
+/* BOUNTY BOARD                                            */
+/* ======================================================= */
+
+/* 
+    ID Selector Practice 
+*/
+#bounty-board {
+	background-color: rgba(212, 175, 55, 0.1);
+	padding: 20px;
+	border: 2px solid #d4af37;
+}
+
+/*
+    Overriding a specific element selector
+*/
+#bounty-board h2 {
+	color: #d4af37;
+}
+
+/* 
+    Flexbox Alignment Bar Practice
+*/
+.notice-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 10px 15px;
+	margin-bottom: 1em;
+	border-left: 4px solid #d4af37;
+}
+
+.notice-bar h3 {
+	margin-bottom: 0;
+}
+
+/*
+    Base link
+*/
+#bounty-board a {
+	color: #d4af37;
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+/*
+    Dynamic link hover
+*/
+#bounty-board a:hover {
+	color: #f4dd94;
+	text-decoration: underline;
+}
+
+/* ======================================================= */
+/* RESPONSIVE BREAKPOINTS (The Media Query Core)           */
+/* ======================================================= */
+
+/* 
+    Conditional Media Query: Targets screens under 768px (Tablets & Phones)
+*/
+@media (max-width: 768px) {
+	/* Override our 2D grid structure to stack columns vertically */
+	main {
+		grid-template-columns: 1fr;
+	}
+
+	/* Demo: Adjust image rendering size */
+	#hero-dashboard img,
+	#bounty-board img {
+		width: 100%;
+		height: auto;
+	}
+}
