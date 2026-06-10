@@ -112,6 +112,8 @@ Switch to the [01-html-basics-starter](https://github.com/CodeWithCarrie/web-dev
 
 ### 2 - CSS
 
+Switch to the [02-css-starter](https://github.com/CodeWithCarrie/web-development-basics/tree/02-css-starter) branch or the [02-css-solution](https://github.com/CodeWithCarrie/web-development-basics/tree/02-css-solution) branch.
+
 | Topics                                      | Code                                 |   Length |
 | ------------------------------------------- | ------------------------------------ | -------: |
 | Introduction to CSS                         | [Demo](https://youtu.be/wPiYZTE43Ko) |    17:49 |
