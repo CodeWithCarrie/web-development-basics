@@ -110,13 +110,19 @@ Switch to the [01-html-basics-starter](https://github.com/CodeWithCarrie/web-dev
 
 ---
 
-### 2 - HTML Forms
+### 2 - CSS
 
-_Coming soon!_
+| Topics                                      | Code                                 |   Length |
+| ------------------------------------------- | ------------------------------------ | -------: |
+| Introduction to CSS                         | [Demo](https://youtu.be/wPiYZTE43Ko) |    17:49 |
+| Dynamic Styling                             | _Coming soon!_                       |          |
+| FlexBox Layout                              | _Coming soon!_                       |          |
+| Responsive Design with Grid & Media Queries | _Coming soon!_                       |          |
+|                                             | **TOTAL**                            | **0:00** |
 
 ---
 
-### 3 - CSS
+### 3 - HTML Forms
 
 _Coming soon!_
 
