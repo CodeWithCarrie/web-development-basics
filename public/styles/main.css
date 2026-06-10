@@ -134,54 +134,38 @@ ul {
 /* ======================================================= */
 
 /* 
-    ID Selector Practice 
+    TODO #1A: For the aside with the id of "bounty-board", add a background color 
+    of rgb(212, 175, 55) but add an alpha channel with an opacity of 10%. 
+    Add padding on all four sides of 20px, and add a 2px-thick solid border
+    colored #d4af37.
 */
-#bounty-board {
-	background-color: rgba(212, 175, 55, 0.1);
-	padding: 20px;
-	border: 2px solid #d4af37;
-}
 
 /*
-    Overriding a specific element selector
+    TODO #1B: Override the h2 within the bounty-board aside to be the same color as the
+    bounty-board border
 */
-#bounty-board h2 {
-	color: #d4af37;
-}
 
 /* 
-    Flexbox Alignment Bar Practice
+    TODO #3B: Define a class, notice-bar, for a div to enclose the location and danger level.
+    It should be a flex container that uses space-between justification,
+    aligns items to center vertically, has a background color of black with 20% opacity,
+    has 10px vertical padding, 15px horizontal padding, and a bottom margin equal
+    to the inherited font size. Add a solid, 4px-thick border on the left only that is 
+    the same color as the h2 and the bounty board border.
 */
-.notice-bar {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color: rgba(0, 0, 0, 0.2);
-	padding: 10px 15px;
-	margin-bottom: 1em;
-	border-left: 4px solid #d4af37;
-}
-
-.notice-bar h3 {
-	margin-bottom: 0;
-}
 
 /*
-    Base link
+    TODO #3C: Give the h3 within the notice-bar div a bottom margin of 0.
 */
-#bounty-board a {
-	color: #d4af37;
-	text-decoration: none;
-	transition: color 0.2s ease;
-}
 
 /*
-    Dynamic link hover
+    TODO #2A: Links should have a color of #d4af37, no underline, 
+    and have a soft transition between colors upon hovering
 */
-#bounty-board a:hover {
-	color: #f4dd94;
-	text-decoration: underline;
-}
+
+/*
+    TODO #2B: Color should change to #f4dd94 when hovering over a link, and an underline should appear
+*/
 
 /* ======================================================= */
 /* RESPONSIVE BREAKPOINTS (The Media Query Core)           */
@@ -196,9 +180,10 @@ ul {
 		grid-template-columns: 1fr;
 	}
 
-	/* Demo: Adjust image rendering size */
-	#hero-dashboard img,
-	#bounty-board img {
+	/* 
+        TODO #4: Make sure bounty board images experience the same width shift 
+    */
+	#hero-dashboard img {
 		width: 100%;
 		height: auto;
 	}
