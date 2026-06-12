@@ -12,17 +12,6 @@
 
 ---
 
-<div>
-    <a href="https://github.com/CodeWithCarrie/web-development-basics/blob/main/README.md#setup">Setup</a> &bull;
-    <a href="https://github.com/CodeWithCarrie/web-development-basics/tree/main#1---html-basics">HTML Basics</a> &bull;
-    <a href="https://github.com/CodeWithCarrie/web-development-basics/tree/main#2---css">CSS</a> &bull;
-    <a href="https://github.com/CodeWithCarrie/web-development-basics/tree/main#3---html-forms">HTML Forms</a> &bull;
-    <a href="https://github.com/CodeWithCarrie/web-development-basics/tree/main#4---the-dom">HTML Forms</a>
-    <!-- TODO: Add links to sections below -->
-</div>
-
----
-
 ### Welcome!
 
 In a field increasingly dominated by AI code generation, it is essential to have a firm grasp on the fundamentals in order to plan ahead, compose crystal-clear prompts, and recognize errors and poorly-formed code. The only way to build muscle is to exercise it, and learning programming is no different!
